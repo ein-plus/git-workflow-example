@@ -25,6 +25,8 @@ git remote add upsatream git@github.com:ein-plus/git-workflow-example
 
 ## 一个完整的开发流程
 
+![Git Workflow](images/git_workflow.png)
+
 ### 同步上游仓库代码
 
 如非必要，不要在 `master` 分支提交代码，而是靠 `master` 分支来同步上游仓库的代码，进入项目目录后，执行如下命令
@@ -97,7 +99,7 @@ git push origin dev   # 将当前分支的代码推送到 Github 仓库的 dev 
 
 如下图所示
 
-![New Pull Request](./new_pull_request.gif)
+![New Pull Request](images/new_pull_request.gif)
 
 ### Code Review
 

@@ -48,9 +48,9 @@ git checkout -b dev     # 从 master 分支中，创建一个 dev 分支，该
 创建了新的分支后，就可以进行开发、修改、提交了，如：
 
 ```shell
-vim fuzzbuzz.py      # 新建 fuzzbuzz.py 并进行开发，完成后保存退出
-git add fuzzbuzz.py  # 将 fuzzbuzz.py 的改动添加到缓存区
-git commit -m "implemented `FuzzBuzz`"  # 确认无误后将改动正式提交到本地仓库中
+vim fizzbuzz.py      # 新建 fizzbuzz.py 并进行开发，完成后保存退出
+git add fuzzbuzz.py  # 将 fizzbuzz.py 的改动添加到缓存区
+git commit -m "implemented `FizzBuzz`"  # 确认无误后将改动正式提交到本地仓库中
 ```
 
 ### 提交代码到 Github

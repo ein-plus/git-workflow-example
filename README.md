@@ -20,7 +20,7 @@ git clone git@github.com:gomez/git-workflow-example
 
 ```shell
 cd git-workflow-example
-git remote add upsatream git@github.com:ein-plus/git-workflow-example
+git remote add upstream git@github.com:ein-plus/git-workflow-example
 ```
 
 ## 一个完整的开发流程
@@ -49,7 +49,7 @@ git checkout -b dev     # 从 master 分支中，创建一个 dev 分支，该
 
 ```shell
 vim fizzbuzz.py      # 新建 fizzbuzz.py 并进行开发，完成后保存退出
-git add fuzzbuzz.py  # 将 fizzbuzz.py 的改动添加到缓存区
+git add fizzbuzz.py  # 将 fizzbuzz.py 的改动添加到缓存区
 git commit -m "implemented `FizzBuzz`"  # 确认无误后将改动正式提交到本地仓库中
 ```
 
